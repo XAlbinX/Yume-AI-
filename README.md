@@ -1,4 +1,7 @@
 # 🌙 Yume AI RP Chat Platform
+
+LIVE -> https://yume-rp.vercel.app/
+
 > **Production-ready AI roleplay platform with advanced monetization and memory systems**
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
