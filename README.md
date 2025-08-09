@@ -10,7 +10,7 @@
 Yume AI was created with a clear mission:  
 **To push the limits of AI roleplay platforms by solving industry pain points in immersion, memory, and cost-efficiency.**  
 
-Most AI chat platforms today suffer from three major issues:
+Most AI chat platforms today suffer from three major issues among others:
 
 ---
 
@@ -40,7 +40,7 @@ Most AI chat platforms today suffer from three major issues:
 
 ---
 
-Yume AI is **not** a generic portfolio project — it’s an **R&D-driven SaaS** built in under **2 months of focused 3h/day work** using GitHub Copilot for rapid iteration. Every feature exists to solve a real industry challenge.
+Yume AI is **not** a generic portfolio project — it’s an **R&D-driven SaaS** built in under **2 months of focused ~3h/day work** using GitHub Copilot for rapid iteration. Every feature exists to solve a real industry challenge.
 
 ---
 
