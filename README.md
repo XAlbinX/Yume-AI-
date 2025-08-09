@@ -44,7 +44,7 @@ Yume AI is **not** a generic portfolio project — it’s an **R&D-driven SaaS**
 
 ---
 
-### **Current challenge?**
+### **💳 Current challenge?**
 
 Stripe/Paypal etc do not support AI chatbot platforms due to their NSFW potential. Currently exploring and developing multiple solutions for this to enable payments again.
 
