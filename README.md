@@ -1,68 +1,71 @@
-🌙 Yume AI RP Chat Platform
-LIVE DEMO → https://yume-rp.vercel.app/
+<h1 align="center">🌙 Yume AI RP Chat Platform</h1>
+<p align="center">
+  <a href="https://yume-rp.vercel.app/"><b>LIVE DEMO</b></a> • 
+  <b>Production-Ready AI SaaS</b> with Advanced Memory & Monetization
+</p>
 
-Production-ready AI chatbot SaaS with multi-model AI integration, advanced memory, and monetization.
-Built to demonstrate full-stack mastery and enterprise-grade architecture.
+---
 
-🚀 Core Features
-🧠 AI & Memory
+## ✨ Overview
+Yume AI is a **full-stack AI chatbot platform** that blends:
+- **Multi-model AI integration** (GPT-4, Claude, DeepSeek)
+- **Persistent memory systems**
+- **Stripe monetization**
+- **Secure, scalable architecture**
 
-Switch between GPT-4, Claude, DeepSeek based on credits/tier.
+Designed as a **portfolio-quality SaaS**, showcasing *end-to-end product development skills*.
 
-Two-tier memory with AI-powered compression.
+---
 
-Smart prompt engineering for context efficiency.
+## 🚀 Features
 
-💳 Monetization
+### 🧠 AI & Memory
+- Dynamic model switching based on **credits & tier**
+- Two-tier **conversation memory** with AI compression
+- Context-optimized prompt engineering
 
-Dual-credit system (free + premium).
+### 💳 Monetization
+- Dual-credit system (**daily free** + **premium persistent**)
+- **Stripe subscriptions** + webhook automation
+- Atomic, race-condition-safe transactions
 
-Stripe subscriptions + webhooks.
+### 🔒 Security & Auth
+- Firebase Auth + Google OAuth
+- Role-based permissions
+- Secure file uploads & content moderation
 
-Safe, atomic transaction handling.
+### 📊 Real-Time Experience
+- Live chat with typing indicators
+- Message regeneration
+- Real-time subscription & credit updates
+- Optimized Firestore queries + caching
 
-🔒 Security & Auth
+---
 
-Firebase Auth + Google OAuth.
+## 💻 Tech Stack
 
-Role-based permissions + content filtering.
+| Layer      | Tech |
+|------------|------|
+| **Frontend** | Next.js 14, React 18, TypeScript, Tailwind CSS |
+| **Backend**  | Next.js API Routes, Firebase Functions |
+| **Database** | Firebase Firestore (real-time) |
+| **AI**       | OpenRouter API (multi-provider) |
+| **Payments** | Stripe + Webhooks |
+| **Storage**  | Firebase Storage |
 
-Secure uploads with validation.
+---
 
-📊 Real-Time UX
+## 🏗 Architecture Snapshot
+```ts
+// Smart model selection
+const model = selectModel({
+  credits: currentCredits,
+  tier: getUserTier(userProfile),
+  costPerMessage: CONFIG.CREDITS_PER_MESSAGE
+});
 
-Live chat, typing indicators, regen messages.
+// Safe credit deduction
+await deductCredits(userId, creditCost);
 
-Real-time credit & subscription updates.
-
-Optimized Firestore with caching.
-
-💻 Stack
-Frontend: Next.js 14, React 18, TypeScript, Tailwind CSS
-
-Backend: Next.js API, Firebase Functions
-
-Database: Firestore (real-time)
-
-AI: OpenRouter API (multi-model)
-
-Payments: Stripe + webhooks
-
-Storage: Firebase Storage
-
-📈 Highlights for Clients
-✅ Built from idea → production solo
-✅ Handles auth, payments, AI, storage, analytics
-✅ Deployed live & mobile-ready
-✅ Scalable, secure, and monetized
-
-🗣 Why It Matters
-Yume isn’t just a “chatbot.” It’s a SaaS template — proof I can:
-
-Build complex real-time apps
-
-Integrate AI APIs + monetization
-
-Deliver polished, secure, scalable products
-
-If you want, I can do the same full-stack, idea-to-launch work for your product — fast, production-ready, and built to scale.
+// AI-powered conversation summary
+await processConversationSummary(userId, botId, messages, getUserTier(userProfile));
