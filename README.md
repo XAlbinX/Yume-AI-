@@ -70,14 +70,13 @@ await deductCredits(userId, creditCost);
 // AI-powered conversation summary
 await processConversationSummary(userId, botId, messages, getUserTier(userProfile));
 
-```ts
 
-📈 Key Points for Clients
+## 📈 Key Points for Clients
 ✅ Idea → Production built solo
 ✅ Auth, payments, AI, analytics, storage in one app
 ✅ Fully mobile responsive
 ✅ Scalable & secure SaaS-ready foundation
 
-📬 Let’s Talk
+## 📬 Let’s Talk
 If you need AI-integrated SaaS or complex full-stack apps,
 I can deliver production-grade quality fast.
