@@ -70,7 +70,7 @@ await deductCredits(userId, creditCost);
 // AI-powered conversation summary
 await processConversationSummary(userId, botId, messages, getUserTier(userProfile));
 
----
+```ts
 
 📈 Key Points for Clients
 ✅ Idea → Production built solo
