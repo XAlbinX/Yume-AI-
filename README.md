@@ -72,10 +72,11 @@ await processConversationSummary(userId, botId, messages, getUserTier(userProfil
 ```
 
 ## 📈 Key Points for Clients
-✅ Idea → Production built solo
-✅ Auth, payments, AI, analytics, storage in one app
-✅ Fully mobile responsive
-✅ Scalable & secure SaaS-ready foundation
+- ✅ Idea → Production built solo  
+- ✅ Auth, payments, AI, analytics, storage in one app  
+- ✅ Fully mobile responsive  
+- ✅ Scalable & secure SaaS-ready foundation
+
 
 ## 📬 Let’s Talk
 If you need AI-integrated SaaS or complex full-stack apps,
